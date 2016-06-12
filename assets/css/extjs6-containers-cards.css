@@ -1,0 +1,46 @@
+/* override style theme sencha */
+
+.x-body {
+    font-family: 'Roboto'
+}
+
+.x-panel-body-default
+{
+    border-width: 0px;
+}
+
+.x-toolbar-default {
+    border: none;
+}
+
+.x-toolbar-default.x-docked-bottom {
+    border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.x-btn-icon-el-default-toolbar-small
+{
+    color: #fff;
+    font-size: 18px;
+}
+
+.x-btn-focus.x-btn-default-toolbar-large,
+.x-btn-over.x-btn-default-toolbar-small,
+.x-btn-over.x-btn-default-toolbar-large,
+.x-btn-focus.x-btn-over.x-btn-default-toolbar-small,
+.x-btn-focus.x-btn-over.x-btn-default-toolbar-large,
+.x-btn-focus.x-btn-default-toolbar-small,
+.x-btn-default-toolbar-large,
+.x-btn
+{
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    border-color: transparent;
+}
+
+.x-btn-icon-left > .x-btn-icon-el-default-toolbar-large,
+.x-btn-icon-right > .x-btn-icon-el-default-toolbar-large
+{
+    font-size: 32px;
+    color: #fff;
+}
